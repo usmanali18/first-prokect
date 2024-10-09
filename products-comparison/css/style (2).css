@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navvv{
+    color: black;
+}
+
+.navuu{
+    margin-left: 20em;
+}
+    
+.product-item{
+    border: 1px solid rgb(219, 219, 219);
+}
+.product-img{
+    position: relative;
+    overflow: hidden;
+}
+.btns{
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
+.btns button{
+    border: none;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.btns button:hover{
+    color: #fcb941;
+}
+.product-img:hover .btns{
+    bottom: 0;
+}
+
+.heart-icon{
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-size: 18px;
+}
+
+.product-type{
+    font-size: 13px;
+    opacity: 0.8;
+}
+.product-name{
+    transition: all 0.3s ease-in-out;
+}
+.product-name:hover{
+    color: #fcb941!important;
+}
+.product-price{
+    color: #fcb941;
+}
+.rating{
+    font-size: 13px;
+}
+.product-item{
+    width: 300px;
+}
+.p{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+a:hover{
+    cursor: pointer;
+    color: rgb(216, 148, 0);
+    text-decoration: underline;
+    transition: ease-in-out 0.2s;   
+}
+.view{
+    margin-left: 24em;
+}
+.contact{
+    display: flex;
+    margin-top: 4em;
+
+}
+.kkkk{
+    display: flex;
+    float: left;
+}
+iframe{
+    width: 400vh;
+    height: 90vh;
+    margin-right: 1em;
+}
+
+.contai {
+    position: relative;
+    width: 50%;
+  }
+  
+  .imag {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .over {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .contai:hover .over {
+    height: 100%;
+  }
+  
+  .txt {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .toglebtn{
+    margin-left: 10em;
+    display: flex;
+  }
+  .subscribe{
+    margin-left: 17.3em;
+  }
+  
+  
+  a{
+    text-decoration: none;
+    color: white;   
+}
+a:hover{
+    text-decoration: none;
+    color: goldenrod;
+}
+ .home{
+   
+    color: black;
+    margin-right:1em ;
+ }
+ .signup{
+    margin-left: 1.5em;
+    margin-top: .2em;
+ }
